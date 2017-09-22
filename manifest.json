@@ -1,0 +1,19 @@
+{
+  "name": "Saebiz",
+  "description": "Расширение для перевода кириллического казахского языка на латиницу",
+  "version": "1.1",
+  "permissions": ["contextMenus", "background","tabs"],
+  "background": {
+    "scripts": ["sample.js"]
+  },
+  "content_scripts": [
+    {
+      "js": ["saebiz.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "16": "16.png"
+ },
+  "manifest_version": 2
+}
