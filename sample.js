@@ -3,7 +3,7 @@ function genericOnClick(info, tab) {
 }
 
 
-var title = "Saebiz!";
+var title = "Sa'biz!";
 var id = chrome.contextMenus.create({"title": title, "contexts":["selection"], "onclick": genericOnClick});
 
 
